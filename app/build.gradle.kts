@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hellotoast2"
+    namespace = "lat.pam.hellotoast2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.hellotoast2"
+        applicationId = "lat.pam.hellotoast2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("androidx.activity:activity-ktx:1.6.1")
 }
